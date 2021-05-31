@@ -1,0 +1,51 @@
+{
+  "name": "mirlekarstv",
+  "version": "0.1.0",
+  "description": "web application for 'Мир лекарств'",
+  "author": "a.bogdanov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "lint": "eslint --fix --ext .js,.vue,.ts --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxt/typescript-build": "1.0.3",
+    "@nuxt/typescript-runtime": "2.0.0",
+    "@nuxtjs/axios": "5.12.2",
+    "@nuxtjs/device": "1.2.7",
+    "@nuxtjs/google-analytics": "2.4.0",
+    "@nuxtjs/markdownit": "1.2.3",
+    "@nuxtjs/style-resources": "1.0.0",
+    "@nuxtjs/vuetify": "1.11.2",
+    "@nuxtjs/yandex-metrika": "1.1.0",
+    "cookieparser": "0.1.0",
+    "core-js": "3.7.0",
+    "inputmask": "4.0.8",
+    "js-cookie": "2.2.1",
+    "node-sass": "4.11.0",
+    "nuxt": "2.14.7",
+    "portal-vue": "2.1.7",
+    "query-string": "6.8.3",
+    "sass-loader": "7.1.0",
+    "v-mask": "2.2.3",
+    "vue-carousel": "0.18.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "2.14.7",
+    "@nuxtjs/eslint-config": "3.1.0",
+    "@nuxtjs/eslint-config-typescript": "3.0.0",
+    "@nuxtjs/eslint-module": "2.0.0",
+    "babel-eslint": "10.1.0",
+    "nuxt-property-decorator": "2.8.8",
+    "vuex-module-decorators": "1.0.1",
+    "cors": "2.8.5",
+    "eslint": "7.13.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-nuxt": "1.0.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.1.2",
+    "yamljs": "0.3.0"
+  }
+}
